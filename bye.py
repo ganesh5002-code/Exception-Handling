@@ -4,6 +4,6 @@ while not valid:
         num = int(input("Enter a number:"))
         while num%2 == 0:
             print("bye")
-            valid = True
+        valid = True
     except ValueError:
         print("invalid")
